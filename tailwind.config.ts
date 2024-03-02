@@ -23,6 +23,7 @@ const config: Config = {
         "light-gray": "#847F7F",
         "darken-green": "#005D5A",
         "lighet-gray": "#717171",
+        "services-bg-gray": "rgba(236, 236, 236, 0.8)",
       },
     },
     height: {

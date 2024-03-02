@@ -13,9 +13,27 @@ body {
   text-transform: capitalize;
 }
 
+li {
+  border-bottom: .5rem solid transparent;
+}
+
 li:hover  {
   color: #07A74F;
   border-bottom: .5rem solid #07A74F;
+}
+
+.bg-sunset-background {
+  background-image: url('/bg-sunset.jpeg');
+  background-size: cover;
+  background-position: 100%;
+  width: 100%;
+  height: 80vh;
+}
+.services {
+  display: flex;
+  align-items: center;
+  width: 25rem;
+  gap: 1rem;
 }
 
 @layer utilities {

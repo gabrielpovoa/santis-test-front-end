@@ -2,7 +2,7 @@ import React from "react";
 
 export const Menu = () => {
   return (
-    <nav className="bg-white p-24 items-center">
+    <nav className="bg-white py-[3rem] items-center">
       <ul className="flex justify-center gap-20">
         <li className="font-semibold text-gray-color-lighter text-beloweMenu p-8 ">
           Departamentos
