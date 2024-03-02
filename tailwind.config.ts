@@ -45,9 +45,9 @@ const config: Config = {
       'store-image-w': '17px',
       'store-image-h': '17px',
     },
-    fontSize: {
-      'beloweMenu': '1.2rem'
-    }
+    // fontSize: {
+    //   'beloweMenu': '1.2rem'
+    // }
   },
   plugins: [],
 };

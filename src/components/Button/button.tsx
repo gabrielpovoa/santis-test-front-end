@@ -7,11 +7,11 @@ interface Props {
 }
 
 export const ButtonWithProp = ({ text, borderColor, weight }: Props) => {
-  const dynamicBorderColorClass = `border-${borderColor}`;
+  const dynamicBorderColorClass = `${borderColor}`;
 
   return (
     <button
-      className={` border-${dynamicBorderColorClass} border-solid border p-2 mt-[5rem] rounded-input-radius ${
+      className={`dynamic border-${dynamicBorderColorClass} border-solid border p-2 mt-[5rem] rounded-input-radius ${
         weight === 800 ? "font-bold" : "font-semibold"
       }`}
     >

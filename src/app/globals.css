@@ -35,6 +35,10 @@ li:hover  {
   width: 25rem;
   gap: 1rem;
 }
+.dynamic {
+  border-color: #005d5a;
+  color: #005d5a;
+}
 
 @layer utilities {
   .text-balance {

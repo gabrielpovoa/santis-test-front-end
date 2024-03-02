@@ -1,10 +1,14 @@
 import React from "react";
 
-export const Menu = () => {
+interface Props {
+  isOpen?:boolean;
+}
+
+export const Menu = ({isOpen}: Props) => {
   return (
     <nav className="bg-white py-[3rem] items-center">
-      <ul className="flex justify-center gap-20">
-        <li className="font-semibold text-gray-color-lighter text-beloweMenu p-8 ">
+      <ul className={`flex justify-center gap-12 ${isOpen ? 'flex-col' : 'flex'} `}>
+        <li className="font-semibold text-gray-color-lighter text-beloweMenu p-8 FLEXC ">
           Departamentos
         </li>
         <li className="font-semibold text-gray-color-lighter text-beloweMenu p-8 ">
