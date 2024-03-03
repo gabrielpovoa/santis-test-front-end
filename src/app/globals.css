@@ -30,18 +30,23 @@ body {
 .bg-sunset-background {
   background-image: url('/bg-sunset.jpeg');
   background-size: cover;
-  background-position: 100%;
+  background-position: center;
   width: 100%;
   height: 80vh;
   background-attachment: fixed;
 
 }
-.services {
-  display: flex;
-  align-items: center;
-  width: 25rem;
-  gap: 1rem;
+
+@media screen and (max-width:1024px) { 
+  .service {
+    flex-direction: column;
+    align-items: start;
+  }
+  .serviceItem{
+    font-size: 1rem;
+  }
 }
+
 .dynamic {
   border-color: #005d5a;
   color: #005d5a;
