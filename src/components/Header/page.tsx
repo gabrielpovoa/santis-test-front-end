@@ -28,8 +28,13 @@ export const Header = () => {
             />
             <FaMagnifyingGlass className="text-black text-2xl ml-0 absolute right-6 top-1/2 transform -translate-y-1/2" />
           </div>
-          <div className=" gap-6 items-center xl:flex hidden">
-            <Social />
+          <div className=" gap-6 items-center xl:flex hidden mr-[8rem]">
+            <Social 
+            FbColor="#fff"
+            FiColor="#fff"
+            FyColor="#fff"
+            FcColor="#fff"
+            />
           </div>
         </div>
         <div className="xl:hidden">
