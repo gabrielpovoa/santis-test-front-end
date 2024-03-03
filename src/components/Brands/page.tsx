@@ -16,7 +16,8 @@ export const Brand = () => {
         <ButtonWithProp
         borderColor="#005d5a"
         text="Ver Mais"
-        weight={800} 
+        weight={600} 
+        textColor="#00704A"
         />
       </div>
     </>

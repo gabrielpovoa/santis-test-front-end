@@ -3,19 +3,26 @@ import React from "react";
 interface Props {
   text: string;
   borderColor: string;
+  backgroundColor?: string;
+  textColor:string;
   weight: any;
 }
 
-export const ButtonWithProp = ({ text, borderColor, weight }: Props) => {
-  const dynamicBorderColorClass = `${borderColor}`;
+export const ButtonWithProp = ({ text, borderColor, backgroundColor,textColor, weight }: Props) => {
+  const buttonStyle = {
+    borderColor: borderColor,
+    backgroundColor: backgroundColor,
+    color:textColor,
+    fontWeight: weight === 800 || 600 ? "bold" : "normal",
+  };
 
   return (
     <button
-      className={`dynamic border-${dynamicBorderColorClass} border-solid border p-2 mt-[5rem] rounded-input-radius ${
-        weight === 800 ? "font-bold" : "font-semibold"
-      }`}
+      className="border-solid border p-2 mt-[5rem] rounded-input-radius"
+      style={buttonStyle}
     >
       {text}
     </button>
   );
 };
+

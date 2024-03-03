@@ -4,7 +4,11 @@ import { Header } from "../Header/page";
 import { Slide } from "../Slide/page";
 import { Services } from "../HelpDesk/page";
 import { Brand } from "../Brands/page";
-import { Oportunities } from "@/app/Oportunities/page";
+import { Oportunities } from "@/components/Oportunities/page";
+import { Inspire } from "../Tips/page";
+import { NewsFlex } from "../News/page";
+import { Gallery } from "../Gallery/page";
+import { Footer } from "../Footer/page";
 
 export const Home = () => {
   return (
@@ -14,6 +18,10 @@ export const Home = () => {
       <Services />
       <Brand />
       <Oportunities />
+      <Inspire />
+      <NewsFlex />
+      <Gallery />
+      <Footer/>
     </div>
   );
 };

@@ -5,6 +5,11 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -13,11 +18,11 @@ body {
   text-transform: capitalize;
 }
 
-li {
+.onGreenHover  {
   border-bottom: .5rem solid transparent;
 }
 
-li:hover  {
+.onGreenHover:hover  {
   color: #07A74F;
   border-bottom: .5rem solid #07A74F;
 }
@@ -28,6 +33,8 @@ li:hover  {
   background-position: 100%;
   width: 100%;
   height: 80vh;
+  background-attachment: fixed;
+
 }
 .services {
   display: flex;
@@ -38,6 +45,24 @@ li:hover  {
 .dynamic {
   border-color: #005d5a;
   color: #005d5a;
+}
+
+.bg-image {
+  background-image: url('/bg-sunset.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bord {
+  border-bottom: .5rem solid transparent;
+  padding: 1rem 0;
+  color: #005D5A;
+
+}
+
+.bord:hover {
+  border-bottom: .5rem solid #005D5A;
+  width: 10rem;
 }
 
 @layer utilities {
