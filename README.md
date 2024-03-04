@@ -4,7 +4,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
-```bash
+1º **PARA RODAR O PROJETO: CLONE O RESPOSITÓRIO, COPIANDO A URL E DIGITANDO O COAMANDO NO TERMINAL 
+
+```git clone [url]```
+
+2º APÓS ISSO, EXECUTE O SEGUINTE COMANDO:
+
+```nom install```
+
+3º ```bash
 npm run dev
 # or
 yarn dev
